@@ -1,2 +1,1 @@
-# prototype
-Basic template to prototype
+## Prototype

@@ -1,0 +1,10 @@
+/node_modules
+/components
+.buildpath
+.sass-cache
+.project
+.idea
+.settings/
+/styleguide/lib/vendor
+/build/css/*
+/build/js/*

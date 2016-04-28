@@ -1,4 +1,5 @@
-/* BASIC */
+/* BASIC
+========================================================================== */
 
 button {
     -webkit-appearance: none;
@@ -37,7 +38,8 @@ button {
     color: #fefefe;
 }
 
-/* SIZES */
+/* SIZES
+========================================================================== */
 
 .button.tiny { font-size: 0.6rem;}
 
@@ -52,7 +54,8 @@ button {
     margin-right: 0;
 }
 
-/* CORES */
+/* CORES
+========================================================================== */
 
 .button.primary {
     background-color: #2199e8;
@@ -152,7 +155,8 @@ button {
     cursor: not-allowed;
 }
 
-/* BUTTON DROPDROW */
+/* BUTTON DROPDOWN
+========================================================================== */
 
 .button.dropdown::after {
     content: '';
@@ -175,7 +179,8 @@ button {
 }
 
 
-/* BOTÕES AGRUPADOS */
+/* BOTÕES AGRUPADOS
+========================================================================== */
 
 .button-group {
     margin-bottom: 1rem;
@@ -283,7 +288,9 @@ button {
 .button-group.stacked-for-medium .button:not(:last-child) { border-bottom: 1px solid #fefefe; }
 
 
-/* CLOSE BUTTON */
+/* BOTÃO FECHAR
+========================================================================== */
+
 
 .close-button {
     position: absolute;
@@ -299,7 +306,8 @@ button {
 .close-button:hover, .close-button:focus { color: #0a0a0a; }
 
 
-/* MOBILE */
+/* MOBILE
+========================================================================== */
 
 @media screen and (min-width: 40em) {
     .button-group.stacked-for-small .button { width: auto;}

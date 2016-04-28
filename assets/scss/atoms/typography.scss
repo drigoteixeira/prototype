@@ -20,7 +20,9 @@ small {
     line-height: inherit;
 }
 
-/* HEADINGS */
+
+/* HEADINGS
+========================================================================== */
 
 h1,h2,h3,h4, h5, h6 {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -46,7 +48,8 @@ h5 { font-size: 1.0625rem; }
 h6 { font-size: 1rem; }
 
 
-/* LINKS */
+/* LINKS
+========================================================================== */
 
 
 a {
@@ -138,7 +141,8 @@ kbd {
 p + .stat { margin-top: -1rem; }
 
 
-/* ALINHAMENTO NOS TEXTOS */
+/* ALINHAMENTO DE TEXTOS
+========================================================================== */
 
 .text-left { text-align: left; }
 .text-right { text-align: right; }
@@ -147,7 +151,9 @@ p + .stat { margin-top: -1rem; }
 
 .show-for-print { display: none !important; }
 
-/* BADGE E LABEL */
+
+/* BADGE E LABEL
+========================================================================== */
 
 .badge {
     display: inline-block;
@@ -177,7 +183,8 @@ p + .stat { margin-top: -1rem; }
 }
 
 
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* MOBILE-ONLY STYLES - mobile-only styles, use when QAing mobile issues
+========================================================================== */
 
 @media screen and (min-width: 40em)  {
     h1 {font-size: 3rem; }
@@ -194,7 +201,9 @@ p + .stat { margin-top: -1rem; }
 
 }
 
-/* min-width 1025px, large screens */
+
+/* MIN-WIDTH 1025px - Large Screens
+========================================================================== */
 
 @media screen and (min-width: 64em) {
 
